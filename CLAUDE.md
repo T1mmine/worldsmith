@@ -39,5 +39,6 @@ Track text (AI Gaming): "Change how a game is played, made or operated, and show
 Meaningful empty states; a deliberate, non-uniform palette; dark mode fully styled; touch targets large enough; nothing under the notch or safe area; smooth transitions; specific error messages (never "a problem occurred"); no stuck spinners; the keyboard must not cover inputs; back navigation works; no placeholder text; multi-language (currently TR/EN); confirmation before destructive actions; permissions explained and requested in context. **Test everything before calling it done.**
 
 ## Working notes
+- **Session continuity:** at the start of every session read `PROGRESS.md` and summarize where we left off. Update it when a significant piece of work finishes and before the session closes.
 - Run: `npm install`, `python build.py`, serve `dist/` and open `test.html`.
 - After code changes, test in a real browser (Playwright with Chromium works headlessly; WebGL needs `--use-gl=swiftshader --enable-unsafe-swiftshader`).
